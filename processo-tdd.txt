@@ -1,0 +1,9 @@
+Nesse processo de TDD modificado/adaptado, o teste escrito na fase inicial é um teste funcional.
+Nas fases de escrita de código mínimo e refatoração, existe um subprocesso que se dá como se segue:
+ - Escreve-se um teste unitário;
+ - Roda-se o teste unitário;
+ - Se ele não passa, escreve-se código mínimo para que ele passe, e retorna-se ao passo anterior;
+ - Se ele passa, verifica-se se a aplicação necessita de refactor;
+ - Se precisa, escreve-se código mínimo e retorna-se ao segundo passo;
+ - Se não precisa, o subprocesso se encerra e se retorna à parte externa de rodar o teste, que, no
+caso, é o teste funcional.
