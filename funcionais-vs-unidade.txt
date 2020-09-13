@@ -1,0 +1,12 @@
+Testes funcionais são também chamados de testes "caixa preta", e se importam majoritariamente
+com o funcionamento do código, e não especificamente com os seus detalhes de implementação.
+Geralmente testam o código através da interface final ou então testa funções como se fossem uma
+biblioteca importada, cujo conteúdo/detalhes de implementação não são conhecidos.
+
+Testes unitários são testes atômicos, abundantes, independentes, que cobrem trechos mínimos do
+código a ser testado.
+
+Um teste unitário pode ser funcional ou não, e vice-versa; São conceitos relativamente
+independentes. Geralmente, no "mundo real", vejo mais testes unitários não-funcionais, feitos com
+algum conhecimento do funcionamento do código testado, incluindo análise de cobertura. Testes
+funcionais são mais comuns na forma de testes de integração ou sistema, mas não é uma regra.
